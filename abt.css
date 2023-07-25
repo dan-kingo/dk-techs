@@ -1,0 +1,93 @@
+@font-face {
+    src: url(font/Pacifico-Regular.ttf);
+    font-family: Pacifico;
+  }
+  @font-face {
+    src: url(font/Roboto-Light.ttf);
+    font-family: Roboto;
+  }
+  @font-face {
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+    font-family: Montserrat;
+  }
+  .navbar {
+    background-color: hsla(0, 0%, 0%, 0.904);
+    height: 56px;
+    position: fixed;
+    width: 100%;
+  }
+  .navbar a{
+    background-color: hsla(0, 0%, 0%, 0.904);
+ }
+  
+  .navbar a:hover {
+    color: hsl(180, 66%, 55%);
+  }
+  .navbar a:active {
+    color: hsl(249, 70%, 59%);
+  }
+  .tech {
+    font-size: 30px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0.75;
+  }
+  h1 {
+    font-family: Pacifico;
+  }
+  main {
+    background-color: hsl(0, 14%, 93%);
+  }
+  footer {
+    display: block;
+    clear: both;
+    background-color: hsla(180, 9%, 7%, 0.897);
+    text-align: center;
+    padding: 15px;
+  }
+  body {
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  header {
+    background-image: url(image/light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    padding: auto;
+    padding-top: 300px;
+    text-align: center;
+  }
+  
+aside {
+    width: 50%;
+    float: left;
+    padding: 10px;
+  }
+  section {
+    width: 50%;
+    float: left;
+    padding: 10px;
+  }
+  @media screen and (max-width: 767px) {
+    aside,
+    
+    section {
+      width: 100%;
+    }
+  }
+  .aside,
+.article,
+.section {
+  font-family: Montserrat;
+}

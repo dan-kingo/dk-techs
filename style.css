@@ -1,0 +1,132 @@
+@font-face {
+    src: url(font/Pacifico-Regular.ttf);
+    font-family: Pacifico;
+  }
+  @font-face {
+    src: url(font/Roboto-Light.ttf);
+    font-family: Roboto;
+  }
+  @font-face {
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+    font-family: Montserrat;
+  }
+  
+  /* @media (max-width: 600px) {
+   .body{
+    background-size: contain;
+}
+} */
+  body{
+    margin: 0;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  header{
+    background-image: url(image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width:100%;
+    margin: 0;
+    padding: auto;
+    padding-top: 300px;
+    text-align: center;
+  }
+.dk{
+  background-color: hsla(0, 0%, 1%, 0.938);
+  opacity: 0.75;
+  font-size: 65px;
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-family: serif;
+}
+.tech{
+  font-size: 45px;
+  padding-right: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: serif;
+  text-decoration: none;
+  
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+}
+aside {
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+section {
+  width: 35%;
+  float: left;
+  padding: 10px;
+}
+article {
+  padding: 10px;
+  width: 35%;
+  float: left;
+}
+@media screen and (max-width: 767px) {
+  aside,
+  article,
+  section {
+    width: 100%;
+  }
+}
+
+.aside,
+.article,
+.section {
+  font-family: Montserrat;
+}
+
+  .navbar {
+    background-color: hsla(0, 0%, 0%, 0.904);
+    height: 56px;
+    position: fixed;
+    width: 100%;
+   }
+   .navbar a{
+    background-color: hsla(0, 0%, 0%, 0.904);
+ }
+   /*
+  .navbar a {
+    color: hsla(0, 0%, 100%, 0.911);
+    padding: 10px;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  .nav {
+    padding: 17px;
+    text-align: center;
+  }
+ */
+  .navbar a:hover {
+    color: hsl(180, 66%, 55%);
+  }
+  .navbar a:active {
+    color: hsl(249, 70%, 59%);
+  } 
+ 
+h1{
+  font-family: Pacifico;
+}
+main{
+  background-color: hsl(0, 14%, 93%);
+}
+footer {
+  display: block;
+  clear: both;
+  background-color: hsla(180, 9%, 7%, 0.897);
+  text-align: center;
+  padding: 15px;
+}
